@@ -21,7 +21,7 @@ const Layout = () => {
 
   return (
     <Box textAlign="center" fontSize="xl">
-      <HStack minH="100vh">
+      <HStack minH="100vh" alignItems="flex-start">
         <Sidebar />
         <VStack alignItems="flex-start">
           <HStack>
